@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spark Events | Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo">SparkEvents</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Book Now</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <h2>Making Your Special Moments Unforgettable</h2>
+    <p>From corporate conferences to dream weddings, we handle every detail.</p>
+    <a href="#contact" class="btn">Plan Your Event</a>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h3>Weddings</h3>
+            <p>Full-service wedding planning, venue decoration, and catering coordination.</p>
+        </div>
+        <div class="card">
+            <h3>Corporate Events</h3>
+            <p>Seamless conferences, product launches, and team-building retreats.</p>
+        </div>
+        <div class="card">
+            <h3>Private Parties</h3>
+            <p>Custom themes, entertainment, and lighting for birthdays and anniversaries.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Upcoming Events Schedule -->
+<section id="schedule" class="container">
+    <h2 class="section-title">Upcoming Public Events</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Event Name</th>
+            <th>Location</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Dec 12, 2026</td>
+            <td>Annual Tech Summit</td>
+            <td>Grand Convention Center</td>
+            <td>Open</td>
+        </tr>
+        <tr>
+            <td>Jan 18, 2027</td>
+            <td>Winter Charity Gala</td>
+            <td>Royal Orchid Ballroom</td>
+            <td>Few Seats Left</td>
+        </tr>
+        <tr>
+            <td>Feb 14, 2027</td>
+            <td>Starlight Music Fest</td>
+            <td>City Central Park</td>
+            <td>Open</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Booking / Contact Form -->
+<section id="contact" class="container">
+    <h2 class="section-title">Book an Event</h2>
+    <form class="booking-form">
+        <input type="text" placeholder="Your Full Name" required>
+        <input type="email" placeholder="Your Email Address" required>
+        <select required>
+            <option value="">Select Event Type</option>
+            <option value="wedding">Wedding</option>
+            <option value="corporate">Corporate Event</option>
+            <option value="party">Private Party</option>
+        </select>
+        <input type="date" required>
+        <textarea rows="4" placeholder="Tell us about your event requirements..."></textarea>
+        <button type="submit" class="btn">Submit Inquiry</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 SparkEvents Management. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
